@@ -164,9 +164,7 @@ export function Exercise({exerciseNumber}: {exerciseNumber: number}) {
                                 <>
                                     <ValidationErrors errors={errors} onClick={onErrorClick} />
                                     <ButtonsWrapper color={theme.color} backgroundColor={theme.background}>
-                                        {'I give up, '}
-                                        <button onClick={showSolutions}>show a possible solution</button> or
-                                        <button onClick={exercisesProgress.skipExercise}>skip</button>
+                                        Not quite there yet but keep going!, Check the documentation
                                     </ButtonsWrapper>
                                 </>
                             )}
